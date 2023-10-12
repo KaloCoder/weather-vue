@@ -21,7 +21,7 @@ const sunsetTime = computed(() => {
 </script>
 
 <template>
-  <div class="section highlights" v-if="weatherInfo?.weather">
+  <div class="section highlights" >
     <div class="title">
       Today's Highlights
     </div>
